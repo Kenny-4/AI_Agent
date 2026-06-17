@@ -1,14 +1,14 @@
-#AI Agent
+# AI Agent
 
 This is a simple AI agent using Google Gemini's API to perform standard filesystem functions.
 
-##HOW TO USE
+## HOW TO USE
  uv run main.py "Ask the model to do something here"
 (Don't forget to activate the python environment beforehand)
 
 You will see the functions that the AI model calls, and the AI's text response afterwards.
 
-##Functionality
+## Functionality
 THe AI is set to work in the PLAYGROUND folder. It can utilize four commands:
 
 - get_file_contents.py: Reads a file up to 10,000 characters.
